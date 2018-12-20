@@ -1,0 +1,566 @@
+{
+  "usage": {
+    "text_units": 5,
+    "text_characters": 49444,
+    "features": 6
+  },
+  "sentiment": {
+    "document": {
+      "score": 0.569425,
+      "label": "positive"
+    }
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "data integrity",
+      "relevance": 0.599919,
+      "count": 1
+    },
+    {
+      "text": "continuum care cycle",
+      "relevance": 0.585172,
+      "count": 1
+    },
+    {
+      "text": "health information exchange",
+      "relevance": 0.584892,
+      "count": 2
+    },
+    {
+      "text": "widespread use",
+      "relevance": 0.56954,
+      "count": 1
+    },
+    {
+      "text": "data storage contracts",
+      "relevance": 0.560207,
+      "count": 1
+    },
+    {
+      "text": "blockchain technology",
+      "relevance": 0.558499,
+      "count": 1
+    },
+    {
+      "text": "Care Providers",
+      "relevance": 0.549673,
+      "count": 2
+    },
+    {
+      "text": "HIPAA rules",
+      "relevance": 0.545998,
+      "count": 2
+    },
+    {
+      "text": "control of data",
+      "relevance": 0.545728,
+      "count": 1
+    },
+    {
+      "text": "electronic storage",
+      "relevance": 0.542481,
+      "count": 1
+    },
+    {
+      "text": "Healthcare Peer",
+      "relevance": 0.542463,
+      "count": 1
+    },
+    {
+      "text": "clinical care teams",
+      "relevance": 0.540999,
+      "count": 1
+    },
+    {
+      "text": "business network",
+      "relevance": 0.540634,
+      "count": 1
+    },
+    {
+      "text": "transaction costs",
+      "relevance": 0.533336,
+      "count": 1
+    },
+    {
+      "text": "silos of health information",
+      "relevance": 0.532999,
+      "count": 1
+    },
+    {
+      "text": "use of digital technologies",
+      "relevance": 0.532828,
+      "count": 1
+    },
+    {
+      "text": "health care data",
+      "relevance": 0.530801,
+      "count": 1
+    },
+    {
+      "text": "encryption key",
+      "relevance": 0.530798,
+      "count": 2
+    },
+    {
+      "text": "smart contracts",
+      "relevance": 0.529721,
+      "count": 8
+    },
+    {
+      "text": "costs of current third party intermediaries",
+      "relevance": 0.529548,
+      "count": 1
+    },
+    {
+      "text": "holistic care of the individual",
+      "relevance": 0.528777,
+      "count": 1
+    },
+    {
+      "text": "such offer",
+      "relevance": 0.528724,
+      "count": 1
+    },
+    {
+      "text": "care outcome of patients",
+      "relevance": 0.528236,
+      "count": 1
+    },
+    {
+      "text": "population health management",
+      "relevance": 0.525478,
+      "count": 1
+    },
+    {
+      "text": "variety of new blockchain",
+      "relevance": 0.525246,
+      "count": 1
+    },
+    {
+      "text": "Business Associates",
+      "relevance": 0.525107,
+      "count": 1
+    },
+    {
+      "text": "traditional information systems",
+      "relevance": 0.524796,
+      "count": 1
+    },
+    {
+      "text": "primary care physicians",
+      "relevance": 0.522148,
+      "count": 1
+    },
+    {
+      "text": "blockchain",
+      "relevance": 0.521741,
+      "count": 15
+    },
+    {
+      "text": "care-providers",
+      "relevance": 0.521653,
+      "count": 1
+    },
+    {
+      "text": "Public Ethereum Blockchain",
+      "relevance": 0.521408,
+      "count": 2
+    },
+    {
+      "text": "single entity",
+      "relevance": 0.520987,
+      "count": 1
+    },
+    {
+      "text": "authorization of use",
+      "relevance": 0.520252,
+      "count": 1
+    },
+    {
+      "text": "cloud storage providers",
+      "relevance": 0.519102,
+      "count": 1
+    },
+    {
+      "text": "way healthcare stakeholders",
+      "relevance": 0.518343,
+      "count": 1
+    },
+    {
+      "text": "effective patient-provider relationship",
+      "relevance": 0.517599,
+      "count": 1
+    },
+    {
+      "text": "big data",
+      "relevance": 0.517128,
+      "count": 1
+    },
+    {
+      "text": "risks of unauthorized data use increases",
+      "relevance": 0.517086,
+      "count": 1
+    },
+    {
+      "text": "encrypted information",
+      "relevance": 0.516842,
+      "count": 1
+    },
+    {
+      "text": "extract information",
+      "relevance": 0.516736,
+      "count": 1
+    },
+    {
+      "text": "government organizations",
+      "relevance": 0.516708,
+      "count": 1
+    },
+    {
+      "text": "Patientory Blockchain Network",
+      "relevance": 0.516652,
+      "count": 1
+    },
+    {
+      "text": "definition of private information",
+      "relevance": 0.516616,
+      "count": 1
+    },
+    {
+      "text": "contract structure",
+      "relevance": 0.516509,
+      "count": 1
+    },
+    {
+      "text": "health information",
+      "relevance": 0.516425,
+      "count": 6
+    },
+    {
+      "text": "use of de",
+      "relevance": 0.516397,
+      "count": 1
+    },
+    {
+      "text": "Ethereum Blockchain",
+      "relevance": 0.516214,
+      "count": 1
+    },
+    {
+      "text": "true value of interoperability",
+      "relevance": 0.516192,
+      "count": 1
+    },
+    {
+      "text": "Blockchain\u2019s technology",
+      "relevance": 0.515902,
+      "count": 1
+    },
+    {
+      "text": "medical records",
+      "relevance": 0.515632,
+      "count": 2
+    }
+  ],
+  "entities": [
+    {
+      "type": "Organization",
+      "text": "HIPAA",
+      "relevance": 0.801714,
+      "count": 14
+    },
+    {
+      "type": "Company",
+      "text": "blockchain technology",
+      "relevance": 0.58107,
+      "count": 5
+    },
+    {
+      "type": "GeographicFeature",
+      "text": "Ethereum Blockchain",
+      "relevance": 0.522703,
+      "count": 5
+    },
+    {
+      "type": "Location",
+      "text": "US",
+      "relevance": 0.514557,
+      "disambiguation": {
+        "subtype": [
+          "Region",
+          "AdministrativeDivision",
+          "GovernmentalJurisdiction",
+          "FilmEditor",
+          "Country"
+        ],
+        "name": "United States",
+        "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+      },
+      "count": 4
+    },
+    {
+      "type": "Person",
+      "text": "blockchain",
+      "relevance": 0.496894,
+      "count": 5
+    },
+    {
+      "type": "Company",
+      "text": "Patientory",
+      "relevance": 0.455548,
+      "count": 4
+    },
+    {
+      "type": "Company",
+      "text": "PTOY",
+      "relevance": 0.441382,
+      "count": 9
+    },
+    {
+      "type": "Facility",
+      "text": "Public Ethereum Blockchain",
+      "relevance": 0.425944,
+      "count": 2
+    },
+    {
+      "type": "Crime",
+      "text": "Fraud",
+      "relevance": 0.416316,
+      "count": 3
+    },
+    {
+      "type": "Person",
+      "text": "Patientory",
+      "relevance": 0.400919,
+      "count": 4
+    },
+    {
+      "type": "Company",
+      "text": "Business Associates",
+      "relevance": 0.399222,
+      "count": 5
+    },
+    {
+      "type": "GeographicFeature",
+      "text": "Patientory Blockchain",
+      "relevance": 0.394139,
+      "count": 2
+    },
+    {
+      "type": "Facility",
+      "text": "Patientory Blockchain Network",
+      "relevance": 0.390834,
+      "count": 1
+    },
+    {
+      "type": "Company",
+      "text": "blockchain",
+      "relevance": 0.380048,
+      "count": 1
+    },
+    {
+      "type": "Facility",
+      "text": "Patientory Blockchain Network Topography",
+      "relevance": 0.374486,
+      "count": 1
+    },
+    {
+      "type": "Person",
+      "text": "Satoshi Nakamoto",
+      "relevance": 0.373179,
+      "count": 2
+    },
+    {
+      "type": "Location",
+      "text": "Patientory",
+      "relevance": 0.372835,
+      "disambiguation": {
+        "subtype": [
+          "City"
+        ]
+      },
+      "count": 2
+    },
+    {
+      "type": "Company",
+      "text": "Ethereum",
+      "relevance": 0.351903,
+      "count": 2
+    },
+    {
+      "type": "Crime",
+      "text": "fraud",
+      "relevance": 0.340116,
+      "count": 2
+    },
+    {
+      "type": "Crime",
+      "text": "solicitation",
+      "relevance": 0.339665,
+      "count": 2
+    },
+    {
+      "type": "Company",
+      "text": "ETH",
+      "relevance": 0.333742,
+      "count": 3
+    },
+    {
+      "type": "Facility",
+      "text": "Blockchain Process Flow Diagram",
+      "relevance": 0.329437,
+      "count": 1
+    },
+    {
+      "type": "JobTitle",
+      "text": "Primary Care Provider",
+      "relevance": 0.324118,
+      "count": 1
+    },
+    {
+      "type": "JobTitle",
+      "text": "Labs and Pharmacies",
+      "relevance": 0.323141,
+      "count": 1
+    },
+    {
+      "type": "JobTitle",
+      "text": "Principal",
+      "relevance": 0.322655,
+      "count": 1
+    },
+    {
+      "type": "Organization",
+      "text": "NIST",
+      "relevance": 0.314873,
+      "disambiguation": {
+        "subtype": [
+          "GovernmentAgency",
+          "SoftwareDeveloper"
+        ],
+        "name": "National Institute of Standards and Technology",
+        "dbpedia_resource": "http://dbpedia.org/resource/National_Institute_of_Standards_and_Technology"
+      },
+      "count": 1
+    },
+    {
+      "type": "JobTitle",
+      "text": "Smart Contract architecture",
+      "relevance": 0.308741,
+      "count": 1
+    },
+    {
+      "type": "Organization",
+      "text": "National Healthcare Ant-Fraud Association",
+      "relevance": 0.30744,
+      "count": 1
+    },
+    {
+      "type": "Company",
+      "text": "Mayo Clinic",
+      "relevance": 0.304722,
+      "disambiguation": {
+        "subtype": [
+          "Location",
+          "Hospital"
+        ],
+        "name": "Mayo Clinic",
+        "dbpedia_resource": "http://dbpedia.org/resource/Mayo_Clinic"
+      },
+      "count": 1
+    },
+    {
+      "type": "Person",
+      "text": "Roy Thomas Fielding",
+      "relevance": 0.304701,
+      "disambiguation": {
+        "subtype": [
+          "SoftwareDeveloper"
+        ],
+        "name": "Roy Fielding",
+        "dbpedia_resource": "http://dbpedia.org/resource/Roy_Fielding"
+      },
+      "count": 1
+    },
+    {
+      "type": "Person",
+      "text": "Chrissa McFarlane",
+      "relevance": 0.301447,
+      "count": 1
+    },
+    {
+      "type": "Organization",
+      "text": "BAA",
+      "relevance": 0.293082,
+      "count": 1
+    }
+  ],
+  "emotion": {
+    "document": {
+      "emotion": {
+        "sadness": 0.148248,
+        "joy": 0.209315,
+        "fear": 0.059584,
+        "disgust": 0.071991,
+        "anger": 0.062415
+      }
+    }
+  },
+  "concepts": [
+    {
+      "text": "Health Insurance Portability and Accountability Act",
+      "relevance": 0.950282,
+      "dbpedia_resource": "http://dbpedia.org/resource/Health_Insurance_Portability_and_Accountability_Act"
+    },
+    {
+      "text": "Health care",
+      "relevance": 0.932611,
+      "dbpedia_resource": "http://dbpedia.org/resource/Health_care"
+    },
+    {
+      "text": "Health informatics",
+      "relevance": 0.590802,
+      "dbpedia_resource": "http://dbpedia.org/resource/Health_informatics"
+    },
+    {
+      "text": "Health care provider",
+      "relevance": 0.580273,
+      "dbpedia_resource": "http://dbpedia.org/resource/Health_care_provider"
+    },
+    {
+      "text": "Health economics",
+      "relevance": 0.535792,
+      "dbpedia_resource": "http://dbpedia.org/resource/Health_economics"
+    },
+    {
+      "text": "Health insurance",
+      "relevance": 0.526895,
+      "dbpedia_resource": "http://dbpedia.org/resource/Health_insurance"
+    },
+    {
+      "text": "Health",
+      "relevance": 0.498315,
+      "dbpedia_resource": "http://dbpedia.org/resource/Health"
+    },
+    {
+      "text": "Medicine",
+      "relevance": 0.45587,
+      "dbpedia_resource": "http://dbpedia.org/resource/Medicine"
+    }
+  ],
+  "categories": [
+    {
+      "score": 0.857709,
+      "label": "/technology and computing/internet technology"
+    },
+    {
+      "score": 0.847228,
+      "label": "/business and industrial/business operations/management/business process"
+    },
+    {
+      "score": 0.820377,
+      "label": "/business and industrial/business software"
+    }
+  ]
+}

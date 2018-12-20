@@ -1,0 +1,678 @@
+{
+  "usage": {
+    "text_units": 4,
+    "text_characters": 31970,
+    "features": 6
+  },
+  "sentiment": {
+    "document": {
+      "score": 0.507602,
+      "label": "positive"
+    }
+  },
+  "language": "en",
+  "keywords": [
+    {
+      "text": "Daily Fantasy Sports",
+      "relevance": 0.542801,
+      "count": 1
+    },
+    {
+      "text": "global players",
+      "relevance": 0.540017,
+      "count": 1
+    },
+    {
+      "text": "Commission Rate",
+      "relevance": 0.536083,
+      "count": 1
+    },
+    {
+      "text": "Third party transactions",
+      "relevance": 0.534408,
+      "count": 1
+    },
+    {
+      "text": "Fantasy Sports Trade Association",
+      "relevance": 0.533948,
+      "count": 2
+    },
+    {
+      "text": "application of blockchain technology",
+      "relevance": 0.531147,
+      "count": 1
+    },
+    {
+      "text": "peer basis",
+      "relevance": 0.525739,
+      "count": 1
+    },
+    {
+      "text": "fantasy application",
+      "relevance": 0.523985,
+      "count": 2
+    },
+    {
+      "text": "interactive game play experience",
+      "relevance": 0.523983,
+      "count": 1
+    },
+    {
+      "text": "best fantasy sports team",
+      "relevance": 0.523729,
+      "count": 1
+    },
+    {
+      "text": "dollar industry",
+      "relevance": 0.523231,
+      "count": 1
+    },
+    {
+      "text": "high risk",
+      "relevance": 0.52152,
+      "count": 1
+    },
+    {
+      "text": "Baseball cards",
+      "relevance": 0.519152,
+      "count": 1
+    },
+    {
+      "text": "token sales",
+      "relevance": 0.518769,
+      "count": 2
+    },
+    {
+      "text": "higher returns",
+      "relevance": 0.51672,
+      "count": 1
+    },
+    {
+      "text": "Ian Olito",
+      "relevance": 0.516341,
+      "count": 1
+    },
+    {
+      "text": "system of fair play",
+      "relevance": 0.515536,
+      "count": 1
+    },
+    {
+      "text": "Fantasy",
+      "relevance": 0.515503,
+      "count": 11
+    },
+    {
+      "text": "groups of participants",
+      "relevance": 0.515375,
+      "count": 1
+    },
+    {
+      "text": "new tokens",
+      "relevance": 0.514807,
+      "count": 1
+    },
+    {
+      "text": "international markets",
+      "relevance": 0.51375,
+      "count": 1
+    },
+    {
+      "text": "token sale",
+      "relevance": 0.512654,
+      "count": 4
+    },
+    {
+      "text": "reputable financial services regulator",
+      "relevance": 0.512324,
+      "count": 1
+    },
+    {
+      "text": "currency exchange",
+      "relevance": 0.512243,
+      "count": 1
+    },
+    {
+      "text": "solution aims",
+      "relevance": 0.512143,
+      "count": 1
+    },
+    {
+      "text": "peer",
+      "relevance": 0.511941,
+      "count": 1
+    },
+    {
+      "text": "fantasy sports players",
+      "relevance": 0.511933,
+      "count": 1
+    },
+    {
+      "text": "America Merrill Lynch",
+      "relevance": 0.511601,
+      "count": 1
+    },
+    {
+      "text": "total pool money",
+      "relevance": 0.511574,
+      "count": 1
+    },
+    {
+      "text": "High commission",
+      "relevance": 0.511392,
+      "count": 1
+    },
+    {
+      "text": "common list of rules",
+      "relevance": 0.511241,
+      "count": 1
+    },
+    {
+      "text": "secretarial requirements of Public",
+      "relevance": 0.51122,
+      "count": 1
+    },
+    {
+      "text": "customer base",
+      "relevance": 0.511121,
+      "count": 1
+    },
+    {
+      "text": "users",
+      "relevance": 0.510914,
+      "count": 18
+    },
+    {
+      "text": "low entry fees",
+      "relevance": 0.510765,
+      "count": 1
+    },
+    {
+      "text": "own rules",
+      "relevance": 0.510715,
+      "count": 1
+    },
+    {
+      "text": "active contributor",
+      "relevance": 0.510595,
+      "count": 1
+    },
+    {
+      "text": "financial transactions",
+      "relevance": 0.510559,
+      "count": 1
+    },
+    {
+      "text": "Smart contracts",
+      "relevance": 0.510551,
+      "count": 2
+    },
+    {
+      "text": "Verification procedures",
+      "relevance": 0.510477,
+      "count": 1
+    },
+    {
+      "text": "baseball",
+      "relevance": 0.510464,
+      "count": 2
+    },
+    {
+      "text": "heavy deal-flow",
+      "relevance": 0.51009,
+      "count": 1
+    },
+    {
+      "text": "trading companies",
+      "relevance": 0.510044,
+      "count": 1
+    },
+    {
+      "text": "football",
+      "relevance": 0.510003,
+      "count": 1
+    },
+    {
+      "text": "Contest",
+      "relevance": 0.509891,
+      "count": 16
+    },
+    {
+      "text": "innovative products",
+      "relevance": 0.509876,
+      "count": 2
+    },
+    {
+      "text": "founder of RotoPlay",
+      "relevance": 0.509853,
+      "count": 1
+    },
+    {
+      "text": "numerous Token Generation Events",
+      "relevance": 0.509774,
+      "count": 1
+    },
+    {
+      "text": "Such information",
+      "relevance": 0.509767,
+      "count": 1
+    },
+    {
+      "text": "reliable transaction",
+      "relevance": 0.509714,
+      "count": 1
+    }
+  ],
+  "entities": [
+    {
+      "type": "Location",
+      "text": "blockchain",
+      "relevance": 0.741289,
+      "disambiguation": {
+        "subtype": [
+          "City"
+        ]
+      },
+      "count": 5
+    },
+    {
+      "type": "Sport",
+      "text": "Sports",
+      "relevance": 0.70857,
+      "count": 4
+    },
+    {
+      "type": "Organization",
+      "text": "Fantasy Sports Trade Association",
+      "relevance": 0.706586,
+      "disambiguation": {
+        "subtype": [],
+        "name": "Fantasy Sports Trade Association",
+        "dbpedia_resource": "http://dbpedia.org/resource/Fantasy_Sports_Trade_Association"
+      },
+      "count": 3
+    },
+    {
+      "type": "Person",
+      "text": "Tom",
+      "relevance": 0.600145,
+      "count": 6
+    },
+    {
+      "type": "Company",
+      "text": "DFS",
+      "relevance": 0.593498,
+      "disambiguation": {
+        "subtype": [],
+        "name": "Discover Financial",
+        "dbpedia_resource": "http://dbpedia.org/resource/Discover_Financial"
+      },
+      "count": 2
+    },
+    {
+      "type": "JobTitle",
+      "text": "\u200bPartner",
+      "relevance": 0.570707,
+      "count": 4
+    },
+    {
+      "type": "JobTitle",
+      "text": "\u200bAdvisor",
+      "relevance": 0.567316,
+      "count": 4
+    },
+    {
+      "type": "JobTitle",
+      "text": "co-founder",
+      "relevance": 0.566026,
+      "count": 4
+    },
+    {
+      "type": "Person",
+      "text": "Ian Olito",
+      "relevance": 0.561967,
+      "count": 3
+    },
+    {
+      "type": "Sport",
+      "text": "baseball",
+      "relevance": 0.518923,
+      "count": 2
+    },
+    {
+      "type": "Location",
+      "text": "USA",
+      "relevance": 0.516569,
+      "disambiguation": {
+        "subtype": [
+          "Region",
+          "AdministrativeDivision",
+          "GovernmentalJurisdiction",
+          "FilmEditor",
+          "Country"
+        ],
+        "name": "United States",
+        "dbpedia_resource": "http://dbpedia.org/resource/United_States"
+      },
+      "count": 2
+    },
+    {
+      "type": "Person",
+      "text": "William Richardson",
+      "relevance": 0.504777,
+      "disambiguation": {
+        "subtype": [
+          "MusicalArtist",
+          "AwardNominee",
+          "BroadcastArtist",
+          "Celebrity",
+          "FilmMusicContributor",
+          "MusicalGroupMember",
+          "RecordProducer",
+          "TVActor"
+        ],
+        "name": "Will.i.am",
+        "dbpedia_resource": "http://dbpedia.org/resource/Will.i.am"
+      },
+      "count": 3
+    },
+    {
+      "type": "Person",
+      "text": "Steven",
+      "relevance": 0.503397,
+      "count": 4
+    },
+    {
+      "type": "Location",
+      "text": "Canada",
+      "relevance": 0.499797,
+      "disambiguation": {
+        "subtype": [
+          "GovernmentalJurisdiction",
+          "Kingdom",
+          "AwardDiscipline",
+          "FilmScreeningVenue",
+          "Country"
+        ],
+        "name": "Canada",
+        "dbpedia_resource": "http://dbpedia.org/resource/Canada"
+      },
+      "count": 2
+    },
+    {
+      "type": "Sport",
+      "text": "football",
+      "relevance": 0.490983,
+      "count": 2
+    },
+    {
+      "type": "Person",
+      "text": "Korey Gardner",
+      "relevance": 0.483303,
+      "count": 3
+    },
+    {
+      "type": "Organization",
+      "text": "DFS Foundation",
+      "relevance": 0.479815,
+      "count": 1
+    },
+    {
+      "type": "Company",
+      "text": "Bank",
+      "relevance": 0.479316,
+      "count": 2
+    },
+    {
+      "type": "Person",
+      "text": "Lee",
+      "relevance": 0.47473,
+      "count": 3
+    },
+    {
+      "type": "Organization",
+      "text": "IOM",
+      "relevance": 0.453366,
+      "count": 2
+    },
+    {
+      "type": "Organization",
+      "text": "Princeton University",
+      "relevance": 0.432754,
+      "disambiguation": {
+        "subtype": [
+          "Location",
+          "CollegeUniversity",
+          "University"
+        ],
+        "name": "Princeton University",
+        "dbpedia_resource": "http://dbpedia.org/resource/Princeton_University"
+      },
+      "count": 1
+    },
+    {
+      "type": "Organization",
+      "text": "Stanford University",
+      "relevance": 0.432646,
+      "disambiguation": {
+        "subtype": [
+          "Location",
+          "Company",
+          "SportsAssociation",
+          "AcademicInstitution",
+          "ChivalricOrderMember",
+          "CollegeUniversity",
+          "University"
+        ],
+        "name": "Stanford University",
+        "dbpedia_resource": "http://dbpedia.org/resource/Stanford_University"
+      },
+      "count": 1
+    },
+    {
+      "type": "Person",
+      "text": "Peter Schoenke",
+      "relevance": 0.432635,
+      "count": 2
+    },
+    {
+      "type": "Organization",
+      "text": "Lehigh University",
+      "relevance": 0.429261,
+      "disambiguation": {
+        "subtype": [
+          "CollegeUniversity",
+          "University"
+        ],
+        "name": "Lehigh University",
+        "dbpedia_resource": "http://dbpedia.org/resource/Lehigh_University"
+      },
+      "count": 1
+    },
+    {
+      "type": "Company",
+      "text": "Sports Illustrated",
+      "relevance": 0.422221,
+      "count": 1
+    },
+    {
+      "type": "JobTitle",
+      "text": "GM",
+      "relevance": 0.41997,
+      "count": 1
+    },
+    {
+      "type": "Crime",
+      "text": "terrorist financing",
+      "relevance": 0.415863,
+      "count": 1
+    },
+    {
+      "type": "Person",
+      "text": "Blockchain",
+      "relevance": 0.415206,
+      "count": 1
+    },
+    {
+      "type": "Person",
+      "text": "Tracy",
+      "relevance": 0.41485,
+      "count": 2
+    },
+    {
+      "type": "Location",
+      "text": "New York",
+      "relevance": 0.414492,
+      "disambiguation": {
+        "subtype": [
+          "PoliticalDistrict",
+          "GovernmentalJurisdiction",
+          "PlaceWithNeighborhoods",
+          "WineRegion",
+          "FilmScreeningVenue",
+          "City"
+        ],
+        "name": "New York City",
+        "dbpedia_resource": "http://dbpedia.org/resource/New_York_City"
+      },
+      "count": 1
+    },
+    {
+      "type": "Crime",
+      "text": "fraud",
+      "relevance": 0.411562,
+      "count": 1
+    },
+    {
+      "type": "Person",
+      "text": "Ed Miller",
+      "relevance": 0.411337,
+      "count": 1
+    },
+    {
+      "type": "Crime",
+      "text": "Fraud",
+      "relevance": 0.409503,
+      "count": 1
+    },
+    {
+      "type": "Company",
+      "text": "Sirius XM Radio",
+      "relevance": 0.403884,
+      "disambiguation": {
+        "subtype": [],
+        "name": "Sirius XM Radio",
+        "dbpedia_resource": "http://dbpedia.org/resource/Sirius_XM_Radio"
+      },
+      "count": 1
+    },
+    {
+      "type": "Company",
+      "text": "Chartered Certified Accountant",
+      "relevance": 0.403494,
+      "disambiguation": {
+        "subtype": [],
+        "name": "Chartered Certified Accountant",
+        "dbpedia_resource": "http://dbpedia.org/resource/Chartered_Certified_Accountant"
+      },
+      "count": 1
+    },
+    {
+      "type": "Location",
+      "text": "USA.",
+      "relevance": 0.400277,
+      "disambiguation": {
+        "subtype": [
+          "Country"
+        ]
+      },
+      "count": 1
+    },
+    {
+      "type": "Organization",
+      "text": "New York Yankees",
+      "relevance": 0.399643,
+      "disambiguation": {
+        "subtype": [
+          "SportsTeam",
+          "ProfessionalSportsTeam"
+        ],
+        "name": "New York Yankees",
+        "dbpedia_resource": "http://dbpedia.org/resource/New_York_Yankees"
+      },
+      "count": 1
+    },
+    {
+      "type": "Company",
+      "text": "Optimal Payments",
+      "relevance": 0.399448,
+      "disambiguation": {
+        "subtype": [],
+        "name": "Optimal Payments",
+        "dbpedia_resource": "http://dbpedia.org/resource/Optimal_Payments"
+      },
+      "count": 1
+    },
+    {
+      "type": "JobTitle",
+      "text": "commissioner",
+      "relevance": 0.39754,
+      "count": 1
+    },
+    {
+      "type": "Organization",
+      "text": "York Giants",
+      "relevance": 0.395065,
+      "count": 1
+    },
+    {
+      "type": "JobTitle",
+      "text": "General Counsel",
+      "relevance": 0.394181,
+      "count": 1
+    },
+    {
+      "type": "Company",
+      "text": "Vishal",
+      "relevance": 0.394058,
+      "count": 1
+    }
+  ],
+  "emotion": {
+    "document": {
+      "emotion": {
+        "sadness": 0.138921,
+        "joy": 0.527347,
+        "fear": 0.113085,
+        "disgust": 0.045586,
+        "anger": 0.100828
+      }
+    }
+  },
+  "concepts": [
+    {
+      "text": "Fantasy sport",
+      "relevance": 0.898976,
+      "dbpedia_resource": "http://dbpedia.org/resource/Fantasy_sport"
+    },
+    {
+      "text": "Fantasy football",
+      "relevance": 0.855933,
+      "dbpedia_resource": "http://dbpedia.org/resource/Fantasy_football_(American)"
+    }
+  ],
+  "categories": [
+    {
+      "score": 0.941547,
+      "label": "/finance/financial news"
+    },
+    {
+      "score": 0.90899,
+      "label": "/real estate/buying and selling homes"
+    },
+    {
+      "score": 0.835954,
+      "label": "/finance/investing"
+    }
+  ]
+}

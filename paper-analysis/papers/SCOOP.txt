@@ -1,0 +1,1234 @@
+SCOOP
+Whitepaper
+01-2018
+
+Table Of Contents:
+1.
+
+Introduction
+1.1. Problem Overview
+1.2. Mission Statement
+1.3. Core Objectives
+1.4. Stakeholders
+1.5. Conceptual Utility
+
+2.
+
+Background & Team
+
+3.
+
+What is Scoop?
+
+4.
+
+Scoop Project Timeline & Stages
+
+5.
+
+4.1.
+
+Introduction
+
+4.2.
+4.3.
+4.4.
+
+Stage One: The Scoop Genesis Period
+Stage Two: The Scoop Evolution Period
+Stage Three: The Scoop Expansion Period
+
+The ScoopCoin
+5.1.
+5.2.
+5.3.
+5.4.
+5.5.
+
+Functionality
+ScoopCoin Overview
+Potential Revenue Streams
+Token Distribution
+
+5.6.
+
+Details On Governance
+Potential Revenue Streams
+
+5.7.
+
+Use of proceeds
+
+6.
+
+Architecture
+
+7.
+
+6.1. Definitions
+6.2. The Scoop protocol
+6.3. Asset Storage
+6.4. Review System
+6.5. Marketplace Mechanics
+6.6. The Scoop node
+6.7. Various Publisher Integrations
+6.8. Miscellaneous Future Scope
+Summary
+
+Abstract
+The Scoop network takes pride in being an open, public and universal record keeping system. Not only
+does the Scoop system allow the addition and retention of key metadata values associated with an asset
+it also keeps an unchangeable and undisputable account of ownership information for a wide range of
+digital assets. Initially the digital assets Scoop will look to target, are found within the written content
+and stock photography industries.
+Scoop is the direct result of the requirements and needs of those users within the marketplaces online
+that handle the exchange of ownership, specifically when dealing with digital media assets such as
+written content and stock photography; as Scoop feels these are some of the worst affected by the
+current setup. Scoops decentralised record keeping and verifiable system will act as the framework for
+such marketplaces to be built upon; to ensure that a universally standardised record is created to
+encompass all metadata, affiliated ownership records and ensure licensing information is included in
+the exchanges and is forever accessible.
+It is ever more visible how blockchain technology has made huge steps in changing the face of financial
+industries. The introduction of distributed accounting that is inherent with blockchain and
+cryptocurrencies has transformed online transactions and has decentralised entire industries in a short
+space of time. Scoop is looking to be at the forefront of this revolution as it crosses from the purely
+financial, to the real world applications that blockchain technology promises to maximise.
+Scoops aim will be to resolve the issues and flaws that currently exist within the entire publishing
+industry, by ensuring that factual, legitimately owned and licensed digital media assets can be not only
+be decentralised but also openly verifiable. Scoop will also provide a marketplace for these assets to be
+exchanged, bought and sold. In addition to this Scoops system will utilise a decentralised token system
+for such marketplaces to be based on; ensuring that the benefits of blockchain technology exist
+throughout the network.
+Important Advisory / Disclaimer: Scoop is undertaking legal assistance and analysing regulatory
+parameters of its functionality. Post this analysis, this section and all others would be updated to ensure
+compliance to legal and regulatory requirements. This document and the concept of Scoop, its
+marketplaces, future implementations and ScoopCoin are all subject to levels of adaptation as the
+development progresses, based on the feedback of board members, consumers, development teams
+and the Scoop team themselves. If there are any changes in the intended functional aspect of Scoop,
+these relevant sections will be edited and an an updated version of the white paper will be uploaded on
+the Scoop website.
+
+Introduction
+1.1 Problem Overview
+Scoop will look to resolve issues found throughout the current digital exchange industries. These issues
+revolve around a few key points: Who owns the digital asset, Is this asset reusable or licensable? what
+/ who is the original source of this content? and how did it arrive here? Whilst these questions may
+seem mundane and easy to answer, when it comes to the correct and fair exchange of digital content
+online, the issues these questions raise plague entire industries with stolen data, fair use and legal
+disputes over licensing.
+Since the inception of the internet, online marketplaces have existed persistently and have provided a
+vast array of locations where information, physical goods and digital content can be traded, exchanged
+and purchased. All the while, these marketplaces have had to deal with the issue of being unable to
+manage a basis to which copyrighted property is able to be exchanged fairly and legally.
+At the core of this issue is the current inability to attach useful metadata to assets. Data such as the
+assets creator, current ownership, licensing information and more has been vacant from these
+exchanges and this inherently has created massive issues and disputes. Even if this level of detailed data
+was able to be added to digital assets, in the current systems used, metadata would still be open to
+manipulation and modification post creation; making the implementation of this on a non-blockchain
+technology null and void.
+Ultimately, when a digital publisher wishes to use a certain asset, they are unable to truly verify, at any
+stage, whether this asset is: Legitimately Owned, Licensed to allow for repurposing, and verifiable.
+Whilst some currently existing marketplaces attempt to act as a central hub for certain industries
+(Shutterstock, Getty Images etc), there is still a lack of this metadata and asset history being recorded
+and kept truly verifiable, especially when dealing with the asset being used beyond these central hubs.
+Scoop when implemented will not only create the ideal framework for attaching this important
+metadata to an asset, but will reach far beyond a central hub and will instead allow any and all
+marketplaces to have a decentralised and openly verifiable level of detail to digital assets exchanged on
+them. This will vastly improve exchanges and data transactions for both the creator and the publisher.
+
+1.2 Current State of the Media
+As made clear in the above, some of the worst affected users, as a direct result of the current set up, are
+easily those contributors that have vital roles in the media industries. However, when talking directly
+about the news and publishing realms; its easy to forget that every single reader and consumer of this
+information are too some of the worst affected. Whether that be due to fake-news, misinformation or
+clickbait articles. This jumbled sense of news validity and trust ends up boiling down to there being such
+
+a blurred line between what we know is fake and what we dont, that we no longer know which news
+sources are reliable, who to trust or even if its still important to care about news being real and truthful.
+Due to the high level of fake-news being produced, it is no wonder that so much of the content we see
+on some of the leading news publications, sometimes appear to duplicate and reproduce this fake news,
+spreading misinformation and made up statistics without even knowing it. Whilst news publications
+have an obligation to fact-check and remove false information; a lot of the time this happens
+post-publication. Meaning a large number of the audience would have already digested and possible
+redistributed this information. A big factor in why this happens is due to the competitive nature of the
+news industry and the demand by the readers to have instantaneous information. Unfortunately the
+result of this is the readers of these news publications no longer know what is and isnt real and this
+leads onto the nightmarish effect of Social Media Echo Chambers. Users are ultimately sharing
+information regardless of it being factual because they briefly saw this headline on what they genuinely
+believe to be a reputable site.
+According to a survey carried out by the Pew Research Center, almost 23% of Americans have shared
+some kind of fake information, most of this taking place online. Out of those who shared fake news a
+shocking 14% admitted to knowing that the information was fake beforehand and still sharing it.
+However, possibly even worst another 16% confessed to have found out the fallibility of the fake news
+they spread, after it was shared; but then still did not attempted to remove it.
+Whilst this may seem like a no-hope-in-sight scenario, there seems to be a shift taking place where by
+content creators, editors, publishers and consumers are all looking to the relevant governments and
+administrations to take actions and hold the entire news industry accountable for the level of
+misinformation being spread. Not only this, but with the total number of online resources and
+communities dedicated to fact-checked, verified news and truthful reporting; growing massively by the
+day. It appears the days of mainstream media's current style, set up and structure will have to change
+from heavily bias reporting that revolves around being the first to break the news; to truthful
+un-opinionated, factual news that has been verified to be credible - as ultimately these articles will begin
+to be more and more valuable to consumers and publishers alike
+
+1.3 Mission Statement
+Scoop will enable trust, confidence, and genuine value to enter the publishing and digital exchange
+industries for all uses end-to-end. Creators, Editors and publishers will be able to effectively verify and
+review all data of an assets: Creation, Ownership, Licensing and Item Specific MetaData, allowing for a
+smooth transaction and rapid redeployment of these assets.
+
+1.4 Core Objectives
+In a nutshell, Scoops objective is to simplify, secure and facilitate the exchange of assets between
+content creators, editors, and content publishers; whilst also increasing the incentivisation of these
+users by enabling a more accurate value for contribution to flow throughout our processes.
+Ultimately, Scoop has very clear and defined objectives that directly relate to current issues within the
+digital publishing industries. Those issues revolve around the over-complicated and often inadequate
+systems in place for the publishing, licensing and authentication of the assets exchanged online. With
+the implementation of Scoop and the desire to achieve these objectives, these marketplaces will see a
+greatly improved and simplified process when it comes to being able to validate and verify the assets
+integrity, ownership, licensing, analytics, history and other additional specific metadata.
+
+1.5 Stakeholders / Users / Nodes
+The Scoop system, whilst open to all digital assets will look to, at its inception, facilitate a group of users
+involved in Written Digital Content & Stock Photography.
+These users play specific roles and their continued use of the Scoop network play a key role in the
+network as a whole:
+ Content creators  An individual or group that has created an original digital asset.
+ Editors  An individual or group that contributes by editing, validating, fact checking and
+disputing content that iterates across the various marketplaces.
+ Publishers  An individual or group who ultimately gains the licensing rights to consume,
+repurpose and redistribute the content exchanged.
+
+1.6 Conceptual Utility.
+The initial or core implementation of Scoops blockchain technology as a way of controlling digital assets
+has some fairly obvious uses, even before Scoop has reached its full potential as a decentralised public
+marketplace for such content as written articles & stock photography / imagery.
+It is relatively straightforward to understand foreseeable uses of Scoops functionality as it is an
+incredibly powerful tool when it comes to conflict resolution regarding media assets.
+When dealing with the exchange and fair use of these assets, conflicts often arise due to not completely
+knowing asset ownership, timeline and integrity.
+This is where scoop comes in, by creating a verifiable fingerprint, that results in a very specific and
+unique hash.
+ Using this metadata and more, the Scoop system then allows publishers and non-creator roles
+to instantly know the ownership of the asset without actually having to reveal the data of the
+asset itself. (ownership)
+
+
+
+
+
+There are also timestamps associated with the asset which allows these users to know whether
+or not a file existed at a certain point of time and also check the integrity of the asset itself. This
+final assertion however is done by the HASH ID itself. (timeline)
+As each asset is given a unique hash, if modifications were made to this asset the hash would
+change completely; indicating that this is not the original asset and its lack of previous historical
+timestamping would show that the integrity of the asset has been compromised. (integrity).
+
+Background & Team
+
+What Is Scoop?
+Scoop is an open source project built on the latest blockchain technology to supply the demand for a
+much more secure, validated and rewarding asset exchange and licensing process for digital assets
+online.
+With the evolution of the internet to what is known at Web2.0, came user generated and hosted
+content. Whilst this massively advanced the content creation and distribution industries such as Blogs,
+Social media, online news publications and more; the level of trust for such generated content has also
+decreased over time. This effect has been a result of various demands to have information immediately
+available, regardless of its complete validity and factualness, but also from social medias inherent
+echo-chamber effect, where viral news with clickbait article headings rule over all. Unfortunately this
+has often lead to a distorted and misleading understanding of the current affairs and opinions. For
+example the mainstream media was unable to correctly predict and cover recent events such as Brexit
+and The US Elections, in part this was a result of misinformation, clickbait articles and the lack of trust
+and openness between these industries and their readers.
+All the while this level of trust has decreased from a reader / viewer perspective, other areas within
+these industries are also suffering with a lack of trust and contributors feeling of unvalued. Content
+creators, editors and publishers are also not being provided with the correct level of basic incentivisation
+that is truly needed to produce not only factual, valid and well written content; but also content that is
+verifiable and readily available for repurposing with the assured knowledge that the correct licensing will
+be retained.
+Over the years, hubs have been created and provided for these roles (Creator, Editor, Publisher), stock
+photography for example has seen many large database systems that provide them with a base to share,
+sell and license media. However, the functionality these provide is often limited entirely to that service,
+and in a lot of cases is open to manipulation. This is huge strain of resources when conflicts arise and
+are often extremely hard to resolve.
+To resolve both the issue of misinformation felt in today's first-out-the-gate news climate and the lack of
+advanced metadata application to digital media assets; enter Scoop.
+By implementing blockchain technology into the solution to these above problems, Scoop will act as a
+core platform and framework to allow Digital assets to be timestamped and hashed with an immutable
+record and additional metadata with a historical record, ensuring that the integrity of that asset is
+retained and verifiable at all times by any person. Scoop will also act as a marketplace that not only
+exchanges these assets effectively and fairly with true value being passed to all contributors; but Scoops
+marketplaces will also evolve into editorial locations where content is constantly reviewed, edited and
+fact checked by the marketplaces Editor users.
+
+This review process will act as a integral mechanism to our marketplace system and will act to massively
+increase the trustworthiness and authenticity of all content being produced on the network. Through a
+system of Stake & Reward, creators will be able to stake ScoopCoin on their assets in order to provide a
+level of proof to others that this content is accurate and to a high standard. This stake will be lost to the
+creator and instead distributed to the reviewers of the asset. However, if the piece of content is
+accepted, this stake is returned and the sale value is shared accordingly to the creator and those editors
+/ reviewers involved.
+This process whilst relatively simple to imagine, should be a constant development point of our
+marketplace frameworks as it is ultimately a core element when combating the issues of fake news and
+validity of content.
+This review process when combined with the advanced record keeping will see content creators through
+to publishers having an open platform where asset verifiability and fair value of content are paramount.
+These users will be able to sell and purchase these digital assets efficiently and with true value being
+shared to those contributors who matter most.
+Scoop will also look to constantly develop its ability to integrate with a range of dApps and CMS systems,
+allowing other 3rd parties to have access to its immutable records and marketplace technology.
+
+Scoop Project Timeline & Stages
+4.1 Timeline Introduction
+Scoop has a outlined a clear strategy involving three separate stages of development that will ensure
+that the solutions provided at all stages are in the best interest of the stakeholders and contributors.
+These stages: Genesis, Evolution and Expansion will see Scoop grow rapidly in value and worth for the
+Scop team and investors, as well as those industries Scoop will look to improve.
+Scoops first stage: Genesis  will see the implementation of timestamping & hashing of assets, creating a
+record keeping system of immutable data for digital assets. This Genesis stage will also see the rise of
+marketplaces in the written media and stock imagery industries to allow those most affected by current
+technology to begin actively gaining value for their work.
+Moving onto the second stage: Evolution, Scoop will see a shift to ensuring that this content and these
+marketplaces adhere to strict guidelines, policies and review processes that will maximise the integrity
+and authenticity of all assets available on it. The mechanics implemented at this stage will have great
+consequences for the value of the Scoop system as this editorial process increases the total number of
+transactions across the network and will create a more diverse flow of value for all contributors of the
+system.
+The final stage: Expansion is an unlimited end-game scenario of developing integrations and extension
+that opens Scoop up to constantly be accessed by third party software and services, in turn resulting in a
+much larger distributed and decentralised network where industry that requires this functionality, will
+have open access to it.
+
+Figure: Scoops current expected Road Map - This is still under consideration and open to adaptation.
+
+4.2 Stage one: The Scoop Genesis Period
+The Scoop Genesis Period will be the largest implementation throughout the project and will launch
+Scoop off with a range of key functionality that will enable Scoops value to increase dramatically. With
+Genesis comes Smart Contracts and Scoops core time-stamping & Hashing functionality - the immutable
+record keeping system and metadata attachment will become available for use to content creators and
+publishers to begin submitting to, searching through and accessing asset data within the Scoop Platform.
+Already adding great value to these users.
+At this stage we will also implement our initial Marketplaces that will cover: written content & stock
+imagery. This will provide all contributors to the Scoop network the ability to actively interact and
+submit claims to the system. Buying and selling their content using the ScoopCoin ecosystem. We will
+look to bolster our marketplaces and grow their user base rapidly, increasing the transactions taking
+place and the value of the Scoop & ScoopCoin systems.
+The combination of these two core bits of functionality being implemented during Genesis will
+ultimately arrive Scoop close to its own endgame position; a stable platform of decentralised news and
+image distribution using an open marketplace of verifiable and authentic content to ensure a beneficial
+transaction process for all contributors to the process; importantly including: the end consumer /
+reader.
+Features Available:
+- Blockchain implementation;
+- Smart Contracts Implemented.
+- File system Implemented,
+- Front end & Back end of core Scoop dashboard Implemented.
+- Various user types and their relative functionality implemented.
+- Timestamping, hashing, metadata, historical record keeping, smart contracts, UI and login
+systems
+- Marketplaces available to exchange, buy and sell content and asset licensing.
+Use Cases:
+- News / Articles / Written Content: Selling, Licensing & Publishing.
+- Stock Photography Selling, Licensing & Publishing.
+- Music.
+4.3 Stage two: The Scoop Evolution Period
+The Scoop Evolution Period / Stage will ultimately act as a refinement process, whereby the systems and
+marketplaces currently in position will be modified and bolstered with additional functionality, giving a
+clearly visible benefit to its users and contributors.
+With the marketplaces being used by active contributors and with content being produced, sold and
+exchanged across our network, its at this stage that we will look to reward such contributors by
+providing additional resources that allow them to gain and profit from Scoop as a whole.
+
+For example, at the evolution stage the Scoop Team will look to implement two additional core features
+that will greatly enhance the user experience for Content Creators, Editors & Publishers alike. These
+implementations are for the: Content Review System and the Reputation System. - This addition of
+systems will not only greatly enhance the quality of the content produced across the network but will
+also incentivise the entire process is a multitude of ways.
+Review system implementations will increase and enhance the quality of the content produced and
+allowed to make it through to the marketplace in the first place, and with the addition of the reputation
+system we can now assess whether a particularly piece of work has been written by a credible author
+and even then see if it has been reviewed by people with credible profiles.
+These evolutions to our basic marketplace model will eventually be at the absolute core of what will
+make our marketplaces some of the most genuinely rewarding and respectfully valued in these key
+industries.
+We will also build in additional functionality to our systems that will actively play on these Reputation &
+Review additions. Our Marketplaces will begin allowing further display ordering and output refinement
+based on these additional bits of data, whilst looking to remove spam and malicious information that
+may be finding its way to our marketplaces.
+Another thing to note here is that we will also be looking to implement similar but not the same types of
+system across our Stock Imagery marketplaces in an attempt to reduce spam and increase credibility
+and quality.
+4.4 Stage three: The Scoop Expansion Period
+This final stage will sprawl from product completion into the distant future scope of this project. This is
+due to the fact that we are looking to rapidly produce the core functionality at the heart of scoop and
+this expansion stage will be the follow up to this.
+However, this is still an absolutely vital milestone to reach as this is when our development and content
+creation will be solely focused on making the Scoop Framework, its resources and its marketplaces as
+accessible by external companies and services as possible.
+The Scoop team will look to introduce a much more open-plan set up, with API access, Plug-in
+integration and a whole range of tutorials and documentation to accompany these integrations.
+The reason this is of such vital requirement is that this future interpretability will massively help and
+benefit those users still stuck in our key industries dealing with high fees and exceptional rates with very
+low conversion percentages.
+It will also allow Scoop Coins value as an integral part of a growing network to rise over time.
+
+At its core, the Scoop Expansion period will look to support 3rd Party services and organisations to have
+access to our system and data; giving functional access to Submit, Review & Modify all of the data across
+the Scoop network.
+
+SCOOPCOIN
+5.1 Functionality
+Introducing the ScoopCoin Token is a vital part of Scoops development as it will ultimately allow the
+transactions and exchanges across the various networks to be able to hold a value and also to enable
+the network of contributors to be incentivised to participate and contribute at every stage.
+The ScoopCoin token is also vitally important for the future development of the scoop platform as a
+whole.
+As stated in the above sections, Scoop will iterate through clear and separate stages as it manifests itself
+in ever changing ways. At each of these stages, the way in which the ScoopCoin will be applied will be
+forever increasing its value for all those using the Scoop network & ScoopCoin token. At the same time,
+the use of this coin at the second stage where the review elements are introduced will greatly increase
+the level of detail and accuracy that will be found throughout Scoops content  this is due to the reward
+process ensuring only the best and most accurate content is sold and rewarded.
+While this Whitepaper does not preclude the Scoop team from offering holders of ScoopCoins a share of
+the fees and revenue generated from the commercial applications of Scoop network, such offer, if any,
+and the extent thereof, will be at the sole and absolute discretion of the Scoop team. Accordingly, there
+is no assurance whatsoever as to whether such offer will be made and holders of ScoopCoin should have
+no expectation of receiving any such offer. In the premises, no ScoopCoin should be construed,
+interpreted, classified or= treated as enabling, or according any opportunity to, purchasers to participate
+in or receive profits, income, or other payments or returns arising from or in connection with the Scoop
+platform, the ScoopCoin or the proceeds of the ScoopCoin sale (as described in this Whitepaper), or to
+receive sums paid out of such profits, income, or other payments or returns.
+The ScoopCoin is an ERC20 compatible token, built on the Ethereum blockchain for wide compatibility
+with existing wallets, exchanges, smart contracts and other financial infrastructure.
+
+5.2 ScoopCoin Overview
+Total tokens
+
+1,000,000,000
+
+Ticker
+
+SCOOP
+
+Type
+
+ERC20
+
+Inflation
+
+None
+
+Token sale start
+
+March 15th 2018
+
+Sale length
+
+350 Days
+
+5.3 Token Distribution
+The ScoopCoin token distribution will be run on the Ethereum blockchain. A total of 1,000,000,000 (1
+Billion) ScoopCoin will be available for distribution. The first 20% (200 million) will be distributed in the
+first 10 days. Followed by the additional 700,000,000 which will be distributed over a 340 day period in
+increments of 2,000,000 every 23 hours. 100,000,000 (100 million) ScoopCoin will be reserved for the
+Scoop founding team. The incoming funds will be used in accordance within the Funds Usage table reference Fig 5.4.0. In the following section.
+
+5.3.1 Initialising a Community
+In order to kickstart the Scoop platform with new content pieces, a specific number of Scoop
+accounts are created and pre-seeded with ScoopCoin tokens. These accounts will be created
+before the launch of main net and will get new users in the initial phase of the project. These early users
+of the account will be accounted for and rewarded for their contribution as per token distribution.
+5.3.2 Pre-Sale (First 10 Days)
+Of the 1 Billion ScoopCoin available, 20% of tokens will be distributed in the first 10 days. This first
+200,000,000 ScoopCoin that will be sold, will be done to provide an incentive for those early investors as
+it will provide a larger return of tokens with a larger purchase window.
+5.3.3 Daily Token Distribution (Remaining 340 Days)
+Following the initial 20% token distribution over the first 10 day period well be distributing 2,000,000
+ScoopCoin every 23 hours for a total of 340 days. This equates to 700,000,000 ScoopCoin. The
+ScoopCoin token sale will require a minimum transaction of 0.1 ETH in order to participate and general
+public can participate in the sale. There will be no maximum transaction amount. If any tokens are left
+unsold after the crowdfunding, they will be sent to ScoopCoin holding.
+5.3.4 Founders
+One hundred million (100,000,000) or 10% of the total ScoopCoin tokens to be distributed will be
+reserved for Scoop founding team as the developer of the Scoop.com software. This 10% cannot be
+traded or transferred on the Ethereum network for the entire distribution period.
+5.3.5 Bounty Program
+A token supply of 1% will be separately kept by Scoop for the general bounty program. This program will
+allow users to gain rewards by submitting genuine bugs and errors found within the Scoop platform.
+Each valid submission will be assessed and for each issue discovered the first to report this will gain a
+reward.
+
+This program will be open for all whod like to participate and will terminate on the last day of
+crowdfunding. ScoopCoin tokens earned through the bounty program will take place within the first
+week of the end of crowdfunding.
+
+5.4 FUNDS USAGE
+General and Administrative
+
+35%
+
+Product Development
+
+40%
+
+Legal
+
+10%
+
+Marketing & Operations
+
+10%
+
+Miscellaneous
+
+5%
+
+Fig 5.4.0
+5.4.1 General & Administrative
+The costs associated with this business that allows it to function smoothly such as infrastructure rent,
+consultation charges, office equipment costs and depreciation, supplies and utilities.
+5.4.2 Product Development
+Funds associated with creation and maintenance of the overall product including server charges,
+development tools and salary of the individuals
+5.4.3 Branding & Marketing
+The charges of communication and delivery of the firms values to its users including outreach via PR,
+media, community building and online channels etc.
+5.4.4 Legal
+As the name suggests, the costs incurred in companys legal work such as company setup and legal
+advices
+5.4.5 Miscellaneous
+Costs such as travel, stay or attending events are termed as miscellaneous costs
+
+5.5 Details On Governance
+Upon the final development stage of the Scoop project, a governance will be passed to the community
+that reviews the content according to already established guidelines. These guidelines and rules which
+
+are used to assess the articles will be governed by a community. The members of the community will be
+able to hold votes in order to test the overall effectiveness of the guidelines.
+The members of the community will also have the choice of suggesting and proposing additional points
+for better quality of the content. The core team will not be allowed to hold the ownership of the content
+policies which makes the communitys role even more significant.
+Scoop is a private entity and therefore, the platforms protocol will be under the control of the core
+team. Any and everyone will be allowed to contribute to additions and fixes to the platform as the team
+will open-source the smart contracts. Also, the community will be allowed with the ability to fork the
+Scoop protocol and thus, individuals will be able to host the nodes on the network. The condition of a
+fork can be allowed by getting the needed support of the community.
+
+5.6 Potential Revenue Streams
+To expand on the above breakdown of Scoopcoin, we must first discuss the various ways throughout the
+development cycle, of which the ScoopCoin will contribute value whilst also gaining value and providing
+Scoop with a legitimate revenue stream.
+It is clear that in the first Stage, Genesis, Scoop through the use of fees during the licensing stage and
+process, will be able to extract a viable revenue stream from the continuous record updating and record
+checking functionality. Creating a licensed asset with an extensive historical and immutable record that
+is freely available to be searched and metadata accessed, will ensure a consistent revenue stream.
+In the genesis stage, the marketplace implementation and all of its inherent transactions via sales,
+exchanges, licensing will carve out a clear revenue stream.
+In the second stage of development, the evolution stage. The introduction of the review process will
+look to greatly enhance and bolster the existing revenue being sourced via the marketplaces. With this
+additional functionality comes Stake & Reward systems as well as bidding opportunities within editors 
+this marketplace evolution  will be a clear and easy way to increase currently existing revenue
+streams.
+
+5.7 Use of Proceeds
+Proceeds will need to be allocated and used in the correct and most effective way, in Scoops case, all
+funding will look to be spent on future / further development on Scoops systems and integrations. This
+ultimately means that this funding will not only be used for salaries, but also the suggested bug-bounty
+set up.
+
+SCOOP ARCHITECTURE
+6.1 Definitions of Scoop Architecture Terminology.
+
+
+
+
+
+
+
+
+
+
+
+
+Title
+
+Offer
+
+
+When a user claims or states ownership of an asset, this claim is called a title.
+A content creator is able to produce a claim that their relevant asset is available for
+licensing and specify what is required to license this media. This claim is specifically
+called an offer.
+
+Claim
+ When a statement is made on the Scoop platform, this is called a claim.
+Notary
+ When a user publishes a certification that verifies the claims made by others, this action
+results in this user being called a Notary.
+License
+ A license simply put is a specific claim that outlines whether someone is given
+permission and within strict guidelines, is allowed to license, repurpose or publish this
+asset.
+Revocation
+ The process / functionality of which withdraws / revokes an issued or licensed asset.
+Albeit rare, this mechanics is in place in case of error or circumstances.
+Certification
+ A specific claim that references another claim. Ultimately a certification provides clear
+confirmation that a license and usage is correct.
+
+6.2 The Scoop Protocol
+Before Scoop reaches its full potential as a game-changing marketplace solution to key and desperate
+industries; Scoops core functionality of time-stamping and hashing will be developed in full. At the core
+of this development is the Scoop Protocol.
+This protocol has been considered and minified where possible to make it a concise and easily
+understandable process for development and use purposes.
+At the center of our system is the basic element of a Claim - all this is, is a message that is issued to the
+Scoop network; this message is coupled with additional metadata and cryptographic details such as:
+Sender Public Key, Signature, Message (which itself can store all sorts of additional metadata such as
+timestamping and immutable record keeping)
+
+To ensure that the Scoop system was not only viable but scalable whilst still being affordable
+economically and having high fees does not achieve this. Therefore, this functionality has been
+considered at length and as a result Scoop will look to hash together as a set, multiple claims being
+issued on the network. (This is done by hashing the set into OP_RETURN Outputs)
+Another attempt to resolve the inherently expensive fees produced by blockchain storage of assets and
+in depth metdadata; Scoop will look to implement a decentralised and distributed file storage system for
+large files such as Assets, Content, Metadata. Outlined initially is the IPFS or Interplanetary File System.
+Ultimately this file system will allow users with valid and verifiable access to these assets; to gain access
+securely. Due to the hashing method being a one-way function, this asset data cannot be extracted in
+reverse; instead the IPFS will come into play and instead a user will use their hash to be provided with
+access to the resources via an indirect method.
+This can be summarized as:
+
+Figure: Progress diagram for claims.
+Once a claim has been made on the network, it can be queried and checked on through interaction with
+a Scoop node or any other system such as marketplaces accessing the Scoop framework.
+This process is similar to add certifications to a claim, or revoke a claim, or even signal that a claim is
+available to be licensed; otherwise known as an offer.
+
+6.3 Asset Storage
+An aspect of our architecture that we have had to consider is where are the assets themselves, once on
+the marketplace platforms, are going to be stored. For this we plan to further our decentralized
+mandate and implement IPFS (Inter Planetary File System)  this distributed peer-to-peer file system will
+serve as the perfect coupling for the assets storage themselves.
+From this storage location users will be able to develop and expand on huge portfolios of content and
+work whilst being provided with the additional security that comes a system with no central authority or
+single points of failure.
+
+6.4 Review System
+The review system that has been discussed previously will be a key mechanic to achieve one of our
+primary objects  to ensure content is factual and valid.
+The Scoop Review Process will involve Creators, Editors and then ultimately consumers / publishers.
+Using a steak & reward system at every level, the potential flow of how Scoop sees this working best
+would involve users signing into a marketplace dashboard UI and each going to their own relevant set of
+functions per role. For example, a content writer that has now signed in and is faced with their
+dashboard would proceed to complete the following flow:
+
+
+
+
+
+
+
+
+
+
+
+A content creator uploads their written article to the marketplace platform.
+They are provided with the timestamping, hashing and metadata functionality for their asset.
+The creator is then able to select how much they would be looking to sell the content on the
+marketplace. The creator must also be willing to share a percentage of the article sale value with
+reviewers if the article is sold (maximum 90%).
+From this total, a stake is taken. (Maximum stake is 10% of the article)
+Using ScoopCoin, this stake acts as proof of validity, authenticity and as a deposit.
+Our review process will then assign 7 Randomly selected, currently available and active editors
+to review this content.
+Once the review process is complete, if the majority of these reviews APPROVE the content; this
+article is then placed onto the marketplace to then be sold. Once this is sold, the writer is
+provided with the sale value, minus the agreed upon % reward for review  this is shared evenly
+amongst all correct voting reviewers.
+Once the review process is complete, if the majority of these reviewers REJECT the content; this
+article is then put into a NEEDS REVIEW stage. The stake put up by the writer will at this point
+be shared amongst the correctly voting reviewers.
+
+Figure: The Scoop Written Article Review Process
+Scoop has intentionally placed large emphasis on our community driven, decentralised approval systems
+for the content exchanged on our marketplaces. Scoop understands that the review process is important
+to ensuring that sellers and buyers are only dealing with factual, verified, and authentic content. This is
+exactly why we will take steps to ensure that content is reviewed by an active and ever growing
+community of incentivised and driven editors who will be eager to ensure efficient scrutiny of content.
+By incentivising this review process and allowing the reviewers to gain a fair reward for their efforts
+regardless of the contents marketplace outcome; we guarantee that when a piece of content is
+submitted for the review, there are ready and waiting content editors available to carry out this review
+as instantaneously as possible. Content creators themselves will to benefit from this review process, as
+work that has been reviewed will be listed and featured higher and more clearly on the marketplaces;
+increasing the chances of converting to a sale for them.
+We understand that writers need this level of speed from submission to sale, as the news industry is
+built upon the requirement of publishing news first; but we also understand that the need for publishers
+to have confidence in the quality and credibility of work provided is also important. This is why we feel
+giving emphasis to rewarding our reviewer community is vital to providing a better marketplace
+experience for all.
+One thing to consider is that different implementations of this review system will be required for our
+varying marketplaces, whilst the theme of rewarding our editors and reviewers will be consistently at
+the core of them. Highlighting our initially proposed marketplace industries: Written Content & Imagery.
+
+
+
+Written Content Marketplace - this review process will be based around a majority vote system
+that takes into account the individual votes of 7 people editors. These anonymous editors will be
+chosen based on them bidding on a selected asset within the bid-window. This bid window is
+specified by the content creator and allows editors to bid against one another to be in the top 7
+highest bids and ultimately review the content. The value of these successful bids will be
+distributed amongst those reviewers that correctly vote at the end of the review process. If the
+window is passed, a first-come-first-serve system is implemented. During the review process, all
+anonymous reviewers will be presented with the same content and will be required to make a
+quick but informed decision on the quality of the content.
+
+
+
+Stock Imagery Marketplace - this review process will again rely on the majority vote system.
+However, these images will need to be manually reviewed and will require users taking steps to
+check the authenticity of the asset. Ultimately to prove or disprove wether this is a duplicate of
+an existing image. Due to these additional steps required for the review process. Therefore we
+will only look to have these assets reviewed by 3 people and the time expected for the review
+process to take will be greater for images.
+
+Scoops evolution and expansion stages are exciting stages for Scoop because of the above level of detail
+our marketplace evolution will entail. We will optimise this process by continuously advancing the
+mechanics of this incensed system. We fully intend and expect, due to the sheer number of active users
+we will accumulate within our community, that our review process will be almost instantaneous,
+happening in a matter of minutes. But Scoop will also consider implementing our reputation system in
+such a way that it will allow those trusted and valued members of our content creation community to
+have a, relative to their reputation, portion of their content gain an approved status whilst bypassing
+this review stage all together.
+Note: Scoop plans to implement at its Evolution and Expansion stages, reputation systems that will play a
+part in deciding how the reward money is split and distributed amongst the reviewers to ensure that
+higher quality reviewers are rewarded accordingly.
+
+6.5 Scoop Marketplace Mechanics
+After initial inception, Scoops core functionality will beneficially expand into a platform on which
+various marketplaces can be built. Initially the Scoop Team will look to, as mentioned before, resolve the
+conflicts and issues that arise when dealing with digital media assets in the Written Content & Publishing
+Industries as well as the Stock Imagery Industries.
+Scoops Marketplaces for such assets will revolve around providing a fast and secure method of selling
+and buying content all the while ensuring that the content is authentic and correctly licensed. These
+provisions will be undisputable and historically recorded due to the immutable nature of the blockchain
+technology we look to implement. Creators will be safe in the knowledge that their content is being used
+by those authorised to do so, and anyone else using content will have no ability to defend themselves in
+
+conflict. Additionally, Publishers will be able to buy and repurpose and distribute articles and images
+that they know with certainty they have been allowed to do so; with undeniable evidence that their
+license permits the use of this article.
+
+With these core consumers satisfied with the level of assurance in our marketplaces, we will then look
+to introduce the review based architecture that will facilitate content review and editing; this process
+will be vital to ensuring that content found throughout our marketplaces, is given a much higher priority
+and position; when it has been fact-checked and reviewed by those editors who find their own positive
+reputation to be vital.
+Content that has not been reviewed will be sorted amongst itself; and ordered accordingly. The content
+that has gone through the review process and been successful will be sorted amongst other successfully
+reviewed content and as a result will be most likely to be sold.
+
+The marketplaces objectives include the need for information exchange to be fast. Publishers wish to
+post the most accurate news as soon as possible; due to the nature of the industry. Therefore our
+system has got to provide a rapid process for submitting, reviewing, selling and publishing content - this
+is exactly what we will look to achieve with Scoops Marketplaces.
+
+6.5 Scoop Technology Stack
+A combination of Ethereum smart contracts, IPFS, and ZeroNet will form the Scoops network.
+Smart Contracts:
+Solidity based smart contracts are utilized to store verified and accepted articles, thus forming a
+published article feed in Ethereum. The Scoop System aims to make use of smart contracts in order to
+handle the review processes and payments structure.
+IPFS:
+Interplanetary file system refers to an overall peer-to-peer network that allows storage and retrieval of
+hypermedia. Upon scaling of the platform, the quantity of gas needed to store articles becomes less
+cost-efficient. Therefore, a hash pointer is used as a reference to its contents in the IPFS.
+ZERONET:
+ZeroNet is a decentralized network which will be used to ensure availability of Scoops web application.
+ZeroNet functions by seeding data (web application and hosting nodes using the data in Scoop). Hosting
+nodes or peers download and upload the Scoop application between each other. Across the Scoop
+network, nodes are widely spread in different geographical regions having complete copies of the
+application. Contributors can directly connect to the public hosting nodes themselves or by navigating to
+Scoops domain and letting Scoop find an available hosting node.
+Upon downloading the Scoop app from the domain, anyone can become a hosting node. On becoming a
+hosting node, the contributors get connected to nearby peers and can start seeding the Scoop web app.
+
+6.6 Scoop Node:
+A Scoop Node is made up of the following microservices:
+The microservices inside a Scoop node communicate with each other via RabbitMQ and Scoop.
+Scoop nodes communicate with each other via the Ethereum blockchain and BitTorrent
+protocol.
+
+
+ClaimSet Creator: Exposes an API for the creation of claims, groups together multiple claims
+created by users over short periods of time (minutes to an hour) into a single claim set, hashes
+and timestamps this claim set onto the blockchain and passes the claim set to the torrent
+subsystem and claim processor.
+
+
+
+
+
+
+
+
+
+Torrent Service: Responsible for downloading and seeding torrents and notifying other
+subsystems when new information is ready to be consumed.
+Ethereum Scanner: Scans the Ethereum blockchain (both on an ongoing basis and retroactively)
+looking for valid Scoop transactions.
+Claim Processor: Coordinates the Ethereum scanner and the torrent subsystem, enriches
+claimset information with blockchain confirmation information and stores the information in a
+database.
+Trusted Claim System: Processes information from the claim processor and filters out only those
+claims that are certified by trusted notaries. The output of this is a curated database of trusted
+claims.
+Copyright Domain Subsystem: Applies the domain-specific rules to the information gathered by
+the trusted claim system and exposes the information with a RESTful API.
+
+6.7 Publisher Integrations
+During and after the Scoop Expansion Period, we expect there to be a growing number of ways for users,
+developers and other businesses to access and submit assets to the Scoop blockchain. Some, but not
+limited to, of these are:
+ Scoop will look to spend time developing popular CMS plugin integrations that allow access to
+tools & services users are already familiar with. (Wordpress, Django, Drupal) as well as RSS
+feeds, social media and a broad range of code libraries to allow those able to tap into the Scoop
+system.
+ The content can be submitted to the Scoop blockchain via our UI and our marketplace upload
+process.
+ We will also look to establish many partners going forward and in doing so will look to provide
+mass import functionality via regular existing methods such as database imports, websites or
+apis.
+
+6.8 Miscellaneous Future Scope
+The scope of Scoop will expand once escapes the beta stage and is ready to be launched as a commercial
+product. We will look to investigate and possible implement some of the following in the near future:
+ Getting dedicated applications built on iOS and Android platforms that provide the overall
+functionality of the system rather than one of its part
+ Making a Scoop community groups which will have access to a portion of ScoopCoins to be
+distributed to the some of our most active users to further incentivise them in order to keep the
+network up and running
+ Live streaming important and exclusive events.
+ Allowing writers to boost their articles in the main feed by paying ScoopCoins.
+ Increasing the scope of the network to an international level with a variety of global and local
+news and languages
+
+Summary
+This Whitepaper was produced by the Scoop team with the purpose of clearly outlining the issues we
+feel are prevalent in key online industries; and proposing what we believe are ideal solutions that
+harness the latest in blockchain technology. With this white paper and the development ahead, we will,
+as a team, not only look to add value to our product that most benefits its contributors / users. But we
+will also establish Scoop and its services in a way that returns the greatest value for stakeholders,
+owners and initial investors.
+With Scoops inception and development will come enhancements to Digital Asset Exchanges,
+specifically written and imagery. These enhancements to Asset Ownership, Licensing, Record Keeping,
+Security, Legal Dispute Processes and much more will certainly be much needed and warmly welcomed
+by the active economic community that feel they are currently at a disadvantage.
+We feel that Scoops choices of technology, such as the blockchain implementation and distributed file
+systems, along with our consideration of those users we wish to subscribe to our services; will yield the
+best results in a range of beneficial ways that we feel are clear and easy to understand.
+A single one of these benefits to mention, that is simply an inherent trait of the system we wish to
+introduce is the removal of extortion from the current digital media asset exchange industries. With
+these hubs monopolising the locations where this content is currently sold online; has come high fees,
+ridiculous monthly subscription services and over-priced editorial teams. Due to the nature of the
+decentralisation and the stake & reward systems, fees will be massively reduced and users are
+incentivised from the get-go, rewarded for their work and contribution and then this value is iterated
+throughout the network. For example, editors will have an abundance of content for them to review,
+and will be paid fairly for their work regardless of the contents final outcome. Resulting in there no
+longer being a need to supply a bog-standard overpriced editing fee to a freelance profile.
+Increased security along with actively keeping historical records of ownership and authenticity, will allow
+the smooth and trustworthy exchange and use of assets. Licensing will be fair, concise and clearly
+outlined from content creator to publisher meaning that all those who wish to use such assets will be
+solely accountable. Our marketplace implantation during the genesis stage will allow value to flow
+through the digital media creation industries; giving a real sense of worth and reward to all contributors.
+Writers will be able to sell their own work, with no fear of infringement, editors will have a place to
+review content where their opinion is valued and rewarded accordingly; and publishers will have free
+reign of a wealth of content and assets that will not only be vastly cheaper due to the removal off high
+fees, but also these publishers will be assured that their licensing permissions are authentic and
+genuine; with no need to fear of later legal ramifications.
+One of the most pressing issues that is having an impact in nearly every niche and industry in the world,
+not to mention across nearly every news & media organisation, is fake news - this current disconnect
+between the writers and the readers is having huge ramifications that many still struggle to understand;
+
+however it is easy to understand why it is happening. With every news article and headline being more
+and more time-critical, comes the demand to have news and assets produced, edited and licensed as
+soon as possible. This is where Scoop comes in.
+Scoop will enable content creators and publishers to expedite this whole process and make it a lot more
+concise and trust worthy. Producing a piece of content at the end that is valid, factual, edited, authentic
+and legally licensed and ready for repurposing in rapid succession. No longer will content be stolen,
+re-written, adapted; when readily available original content is waiting in a marketplace where proof of
+ownership is a key function.
+If you have read this Whitepaper, and you understand the issues outlined and can see the benefits of
+our proposed solutions, the entire Scoop team would recommend you contact us today to get involved.
+
+IMPORTANT NOTICE
+This whitepaper (Whitepaper) in current form is being circulated by the Scoop team (as referred to in this
+Whitepaper) for general information and to invite community feedback only on the Scoop project as
+presently conceived, and is subject to review and revision by the Board of Directors (as referred to in this
+Whitepaper), the board of advisers and/or legal advisers of the Scoop team. Please do not replicate or
+distribute any part of this Whitepaper without this note in accompaniment. No part of this Whitepaper is
+intended to create legal relations between a recipient of this Whitepaper or to be legally binding or
+enforceable by such recipient against the Scoop team. An updated version of this Whitepaper may be
+published on a date to be determined and announced by the Scoop team in due course.
+PLEASE READ THIS SECTION AND THE FOLLOWING SECTIONS ENTITLED DISCLAIMER OF LIABILITY,
+NO REPRESENTATIONS AND WARRANTIES, REPRESENTATIONS AND WARRANTIES BY YOU,
+CAUTIONARY NOTE ON FORWARD-LOOKING STATEMENTS, THIRD PARTY INFORMATION AND NO
+CONSENT OF OTHER PERSONS, TERMS USED, NO ADVICE, NO FURTHER INFORMATION OR
+UPDATE, RESTRICTIONS ON DISTRIBUTION AND DISSEMINATION, NO OFFER OF INVESTMENT OR
+REGISTRATION AND RISKS AND UNCERTAINTIES CAREFULLY.IF YOU ARE IN ANY DOUBT AS TO THE
+ACTION YOU SHOULD TAKE, YOU SHOULD CONSULT YOUR LEGAL, FINANCIAL, TAX OR OTHER
+PROFESSIONAL ADVISOR(S).
+The ScoopCoin are not intended to constitute securities of any form, units in a business trust, units in a
+collective investment scheme or any other form of investment in any jurisdiction. This Whitepaper does not
+constitute a prospectus or offer document of any sort and is not intended to constitute an offer of securities of
+any form, units in a business trust, units in a collective investment scheme or any other form of investment, or
+a solicitation for any form of investment in any jurisdiction. While this Whitepaper does not preclude the
+Scoop team from offering holders of ScoopCoin a share of the fees and revenue generated from the
+commercial applications of Scoop network, such offer, if any, and the extent thereof, will be at the sole and
+absolute discretion of the Scoop team. Accordingly, there is no assurance whatsoever as to whether such offer
+will be made and holders of ScoopCoin should have no expectation of receiving any such offer. In the
+premises, no ScoopCoin should be construed, interpreted, classified or treated as enabling, or according any
+opportunity to, purchasers to participate in or receive profits, income, or other payments or returns arising
+from or in connection with the Scoop platform, the ScoopCoin or the proceeds of the ScoopCoin sale (as
+described in this Whitepaper), or to receive sums paid out of such profits, income, or other payments or
+returns.
+This Whitepaper does not constitute or form part of any opinion on any advice to sell, or any solicitation of
+any offer by the Scoop team to purchase any ScoopCoin nor shall it or any part of it nor the fact of its
+presentation form the basis of, or be relied upon in connection with, any contract or investment decision.
+
+The Scoop team will deploy all proceeds of sale of the ScoopCoin to support ongoing development and growth
+of the Scoop network.
+
+No person is bound to enter into any contract or binding legal commitment in relation to the sale and
+purchase of the ScoopCoin and no cryptocurrency or other form of payment is to be accepted on the basis of
+this Whitepaper.
+Any agreement as between the Scoop team and you as a purchaser, and in relation to any sale and purchase,
+of ScoopCoin (as referred to in this Whitepaper) is to be governed by only a separate document setting out
+the terms and conditions (the T&Cs) of such agreement. In the event of any inconsistencies between the
+T&Cs and this Whitepaper, the former shall prevail.
+THE ScoopCoin SALE (AS REFERRED TO IN THIS WHITEPAPER) IS INTENDED FOR, MADE TO OR
+DIRECTED AT ONLY PERSONS OUTSIDE THE UNITED STATES OF AMERICA AND THE REPUBLIC OF
+SINGAPORE AND MAY BE ACTED UPON ONLY BY PERSONS OUTSIDE THE UNITED STATES OF AMERICA
+AND THE REPUBLIC OF SINGAPORE. ACCORDINGLY, YOU ARE NOT ELIGIBLE AND YOU ARE NOT TO
+PURCHASE ANY SCOOPCOIN IN THE ScoopCoin SALE IF YOU ARE LOCATED IN THE UNITED STATES OF
+AMERICA OR THE REPUBLIC OF SINGAPORE AT THE TIME OF YOUR INTENDED PURCHASE/PURCHASE
+OF SCOOPCOIN IN THE TOKEN SALE. YOU ARE ALSO NOT ELIGIBLE AND YOU ARE NOT TO PURCHASE
+ANY SCOOPCOIN IN THE ScoopCoin SALE IF YOU ARE A CITIZEN, RESIDENT (TAX OR OTHERWISE),
+DOMICILED IN, OR GREEN CARD HOLDER OF THE UNITED STATES OF AMERICA OR A CITIZEN,
+DOMICILED IN, OR RESIDENT OF THE REPUBLIC OF SINGAPORE.
+No regulatory authority has examined or approved of any of the information set out in this Whitepaper. No
+such action has been or will be taken under the laws, regulatory requirements or rules of any jurisdiction. The
+publication, distribution or dissemination of this Whitepaper does not imply that the applicable laws,
+regulatory requirements or rules have been complied with.
+There are risks and uncertainties associated with the Scoop team and its business and operations, the
+ScoopCoin, the Scoop team token sale and the Scoop network (each as referred to in this Whitepaper).
+This Whitepaper, any part thereof and any copy thereof must not be taken or transmitted to any country
+where distribution or dissemination of this Whitepaper is prohibited or restricted.
+No part of this Whitepaper is to be reproduced, distributed or disseminated without including this section
+and the following sections entitled Disclaimer of Liability, No Representations and Warranties,
+Representations and Warranties By You, Cautionary Note On Forward-Looking Statements, Third Party
+Information and No Consent of Other Persons, Terms Used, No Advice, No Further Information or
+Update, Restrictions On Distribution and Dissemination, No Offer of Investment Or Registration and
+Risks and Uncertainties.
+
+DISCLAIMER OF LIABILITY
+To the maximum extent permitted by the applicable laws, regulations and rules, the Scoop team shall not be
+liable for any indirect, special, incidental, consequential or other losses of any kind, in tort, contract or
+otherwise (including but not limited to loss of revenue, income or profits, and loss of use or data), arising out
+of or in connection with any acceptance of or reliance on this Whitepaper or any part thereof by you.
+NO REPRESENTATIONS AND WARRANTIES
+The Scoop team does not make or purport to make, and hereby disclaims, any representation, warranty or
+undertaking in any form whatsoever to any entity or person, including any representation, warranty or
+
+undertaking in relation to the truth, accuracy and completeness of any of the information set out in this
+Whitepaper.
+REPRESENTATIONS AND WARRANTIES BY YOU
+By accessing and/or accepting possession of any information in this Whitepaper or such part thereof (as the
+case may be), you represent and warrant to the Scoop team as follows:
+a.
+
+you agree and acknowledge that the ScoopCoin do not constitute securities of any form, units in a
+business trust, units in a collective investment scheme or any other form of investment in any
+jurisdiction;
+
+b.
+
+you agree and acknowledge that this Whitepaper does not constitute a prospectus or offer document
+of any sort and is not intended to constitute an offer of securities of any form, units in a business
+trust, units in a collective investment scheme or any other form of investment in any jurisdiction, or a
+solicitation for any form of investment, and you are not bound to enter into any contract or binding
+legal commitment and no cryptocurrency or other form of payment is to be accepted on the basis of
+this Whitepaper;
+
+c.
+
+you acknowledge and understand that:
+i.
+while this Whitepaper does not preclude the Scoop team from offering holders of ScoopCoin
+a share of the fees and revenue generated from the commercial applications of Scoop
+network, such offer, if any, and the extent thereof, will be at the sole and absolute discretion
+of the Scoop team;
+ii.
+here is no assurance whatsoever as to whether such offer will be made and holders of
+ScoopCoin should have no expectation of receiving any such offer; and
+iii.
+no ScoopCoin should be construed, interpreted, classified or treated as enabling, or
+according any opportunity to, purchasers to participate in or receive profits, income, or
+other payments or returns arising from or in connection with the Scoop platform, the
+ScoopCoin or the proceeds of the ScoopCoin sale (as described in this Whitepaper), or to
+receive sums paid out of such profits, income, or other payments or returns;
+
+d.
+
+you agree and acknowledge that no regulatory authority has examined or approved of the
+information set out in this Whitepaper, no action has been or will be taken under the laws, regulatory
+requirements or rules of any jurisdiction and the publication, distribution or dissemination of this
+Whitepaper to you does not imply that the applicable laws, regulatory requirements or rules have
+been complied with;
+
+e.
+
+you agree and acknowledge that this Whitepaper, the undertaking and/or the completion of the
+Scoop team token sale, or future trading of the ScoopCoin on any cryptocurrency exchange, shall not
+be construed, interpreted or deemed by you as an indication of the merits of the Scoop team, the
+ScoopCoin, the Scoop team token sale, the Scoop protocol or platform and the Scoop network (each
+as referred to in this Whitepaper);
+
+f.
+
+the distribution or dissemination of this Whitepaper, any part thereof or any copy thereof, or
+acceptance of the same by you, is not prohibited or restricted by the applicable laws, regulations or
+rules in your jurisdiction, and where any restrictions in relation to possession are applicable, you
+have observed and complied with all such restrictions at your own expense and without liability to
+the Scoop team;
+
+g.
+
+you agree and acknowledge that in the case where you wish to purchase any ScoopCoin the
+ScoopCoin are not to be construed, interpreted, classified or treated as:
+i.
+any kind of currency other than cryptocurrency;
+ii.
+debentures, stocks or shares issued by any person or entity;
+iii.
+rights, options or derivatives in respect of such debentures, stocks or shares;
+iv.
+rights under a contract for differences or under any other contract the purpose or pretended
+purpose of which is to secure a profit or avoid a loss
+v.
+units in a collective investment scheme;
+vi.
+units in a business trust;
+vii.
+derivatives of units in a business trust; or
+viii.
+any other security, class of securities or form of investment;
+
+h.
+
+you are fully aware of and understand that you are not eligible to purchase any ScoopCoin if you are a
+citizen, resident (tax or otherwise), domiciled in, or green card holder of the United States of America
+or a citizen, domiciled in, or resident (tax or otherwise) of the Republic of Singapore or a person who
+is located in the United States of America or the Republic of Singapore at the time of your intended
+purchase of ScoopCoin in the token sale (as referred to in this Whitepaper);
+
+i.
+
+you have a basic degree of understanding of the operation, functionality, usage, storage, transmission
+mechanisms and other material characteristics of cryptocurrencies, blockchain-based software
+systems, cryptocurrency wallets or other related token storage mechanisms, blockchain technology
+and smart contract technology;
+
+j.
+
+you are fully aware and understand that in the case where you wish to purchase any ScoopCoin,
+there are risks associated with Scoop team and its respective business and operations, the ScoopCoin,
+the Scoop team token sale, the Scoop platform or protocol and the Scoop network (each as referred
+to in the Whitepaper);
+
+k.
+
+you agree and acknowledge that the Scoop team is not liable for any indirect, special, incidental,
+consequential or other losses of any kind, in tort, contract or otherwise (including but not limited to
+loss of revenue, income or profits, and loss of use or data), arising out of or in connection with any
+acceptance of or reliance on this Whitepaper or any part thereof by you; and
+
+l.
+
+all of the above representations and warranties are true, complete, accurate and non-misleading
+from the time of your access to and/or acceptance of possession this Whitepaper or such part thereof
+(as the case may be).
+
+CAUTIONARY NOTE ON FORWARD-LOOKING STATEMENTS
+All statements contained in this Whitepaper, statements made in press releases or in any place accessible by
+the public and oral statements that may be made by the Scoop team or its directors, executive officers or
+employees acting on behalf of the Scoop team (as the case may be), that are not statements of historical fact,
+constitute forward-looking statements.
+
+Some of these statements can be identified by forward-looking terms such as aim, target, anticipate,
+believe, could, estimate, expect, if, intend, may, plan, possible, probable, project, should,
+
+would, will or other similar terms. However, these terms are not the exclusive means of identifying
+forward-looking statements. All statements regarding the Scoop teams financial position, business strategies,
+plans and prospects and the future prospects of the industry which the Scoop team is in are forward-looking
+statements. These forward-looking statements, including but not limited to statements as to the Scoop teams
+revenue and profitability, prospects, future plans, other expected industry trends and other matters discussed
+in this Whitepaper regarding the Scoop team are matters that are not historical facts, but only predictions.
+These forward-looking statements involve known and unknown risks, uncertainties and other factors that
+may cause the actual future results, performance or achievements of the Scoop team to be materially different
+from any future results, performance or achievements expected, expressed or implied by such
+forward-looking statements. These factors include, amongst others:
+a.
+
+changes in political, social, economic and stock or cryptocurrency market conditions, and the
+regulatory environment in the countries in which the Scoop team conducts its respective businesses
+and operations;
+
+b.
+
+the risk that the Scoop team may be unable to execute or implement their respective business
+strategies and future plans;
+
+c.
+
+changes in interest rates and exchange rates of fiat currencies and cryptocurrencies;
+
+d.
+
+changes in the anticipated growth strategies and expected internal growth of the Scoop team;
+
+e.
+
+changes in the availability and fees payable to the Scoop team in connection with its businesses and
+operations;
+
+f.
+
+changes in the availability and salaries of employees who are required by the Scoop team to operate
+their respective businesses and operations;
+
+g.
+
+changes in preferences of users of the Scoop platform;
+
+h.
+
+changes in competitive conditions under which the Scoop team operate, and the ability of the Scoop
+team to compete under such conditions;
+
+i.
+
+changes in the future capital needs of the Scoop team and the availability of financing and capital to
+fund such needs;
+
+j.
+
+war or acts of international or domestic terrorism;
+
+k.
+
+occurrences of catastrophic events, natural disasters and acts of God that affect the businesses
+and/or operations of the Scoop team;
+
+l.
+
+other factors beyond the control of the Scoop team; and
+
+m. any risk and uncertainties associated with the Scoop team and its businesses and operations, the
+ScoopCoin, the Scoop team token sale and the Scoop network (each as referred to in the Whitepaper).
+
+All forward-looking statements made by or attributable to the Scoop team or persons acting on behalf of the
+Scoop team are expressly qualified in their entirety by such factors. Given that risks and uncertainties that
+may cause the actual future results, performance or achievements of the Scoop team to be materially different
+from that expected, expressed or implied by the forward-looking statements in this Whitepaper, undue
+reliance must not be placed on these statements. These forward-looking statements are applicable only as of
+the date of this Whitepaper.
+Neither the Scoop team nor any other person represents, warrants and/or undertakes that the actual future
+results, performance or achievements of the Scoop team will be as discussed in those forward-looking
+statements. The actual results, performance or achievements of Scoop team may differ materially from those
+anticipated in these forward-looking statements.
+Nothing contained in this Whitepaper is or may be relied upon as a promise, representation or undertaking as
+to the future performance or policies of the Scoop team.
+Further, the Scoop team disclaims any responsibility to update any of those forward-looking statements or
+publicly announce any revisions to those forward-looking statements to reflect future developments, events
+or circumstances, even if new information becomes available or other events occur in the future.
+THIRD PARTY INFORMATION AND NO CONSENT OF OTHER PERSONS
+This Whitepaper includes information obtained from various third party sources (Third Party
+Information). None of the publishers of the Third Party Information has consented to the inclusion of the
+Third Party Information in this Whitepaper and is therefore not liable for the Third Party Information. While
+the Scoop team has taken reasonable action to ensure that the Third Party Information have been included in
+their proper form and context, neither the Scoop team, nor its directors, executive officers and employees
+acting on its behalf, has independently verified the accuracy, reliability, completeness of the contents, or
+ascertained any applicable underlying assumption, of the relevant Third Party Information. Consequently,
+neither the Scoop team nor its directors, executive officers and employees acting on their behalf makes any
+representation or warranty as to the accuracy, reliability or completeness of such information and shall not
+be obliged to provide any updates on the same.
+TERMS USED
+To facilitate a better understanding of the ScoopCoin being offered for purchase by the Scoop team, and the
+businesses and operations of the Scoop team, certain technical terms and abbreviations, as well as, in certain
+instances, their descriptions, have been used in this Whitepaper. These descriptions and assigned meanings
+should not be treated as being definitive of their meanings and may not correspond to standard industry
+meanings or usage.
+Words importing the singular shall, where applicable, include the plural and vice versa and words importing
+the masculine gender shall, where applicable, include the feminine and neuter genders and vice versa.
+References to persons shall include corporations.
+NO ADVICE
+No information in this Whitepaper should be considered to be business, legal, financial or tax advice
+regarding the Scoop team, the ScoopCoin, the Scoop team token sale, the Scoop platform or protocol and the
+Scoop network (each as referred to in the Whitepaper).
+You should consult your own legal, financial, tax or other professional adviser regarding the Scoop team and
+
+its businesses and operations, the ScoopCoin, the Scoop team token sale, the Scoop platform or protocol and
+the Scoop network (each as referred to in the Whitepaper). You should be aware that you may be required to
+bear the financial risk of any purchase of ScoopCoin for an indefinite period of time.
+NO FURTHER INFORMATION OR UPDATE
+No person has been or is authorised to give any information or representation not contained in this
+Whitepaper in connection with Scoop team and its businesses and operations, the ScoopCoin, the Scoop team
+token sale, the Scoop platform or protocol and the Scoop network (each as referred to in the Whitepaper)
+and, if given, such information or representation must not be relied upon as having been authorised by or on
+behalf of the Scoop team. The Scoop team token sale (as referred to in the Whitepaper) shall not, under any
+circumstances, constitute a continuing representation or create any suggestion or implication that there has
+been no change, or development reasonably likely to involve a material change in the affairs, conditions and
+prospects of the Scoop team or in any statement of fact or information contained in this Whitepaper since the
+date hereof.
+RESTRICTIONS ON DISTRIBUTION AND DISSEMINATION
+The distribution or dissemination of this Whitepaper or any part thereof may be prohibited or restricted by
+the laws, regulatory requirements and rules of any jurisdiction. In the case where any restriction applies, you
+are to inform yourself about, and to observe, any restrictions which are applicable to your possession of this
+Whitepaper or such part thereof (as the case may be) at your own expense and without liability to the Scoop
+team.
+Persons to whom a copy of this Whitepaper has been distributed or disseminated, provided access to or who
+otherwise have the White Paper in their possession shall not circulate it to any other persons, reproduce or
+otherwise distribute this Whitepaper or any information contained herein for any purpose whatsoever nor
+permit or cause the same to occur.
+NO OFFER OF INVESTMENT OR REGISTRATION
+This Whitepaper does not constitute a prospectus or offer document of any sort and is not intended to
+constitute an offer of securities of any form, units in a business trust, units in a collective investment scheme
+or any other form of investment, or a solicitation for any form of investment in any jurisdiction. No person is
+bound to enter into any contract or binding legal commitment and no cryptocurrency or other form of
+payment is to be accepted on the basis of this Whitepaper.
+THE ScoopCoin SALE (AS REFERRED TO IN THIS WHITEPAPER) IS INTENDED FOR, MADE TO OR
+DIRECTED AT ONLY PERSONS OUTSIDE THE UNITED STATES OF AMERICA AND THE REPUBLIC OF
+SINGAPORE AND MAY BE ACTED UPON ONLY BY PERSONS OUTSIDE THE UNITED STATES OF AMERICA
+AND THE REPUBLIC OF SINGAPORE. ACCORDINGLY, YOU ARE NOT ELIGIBLE AND YOU ARE NOT TO
+PURCHASE ANY SCOOPCOIN IN THE ScoopCoin SALE IF YOU ARE LOCATED IN THE UNITED STATES OF
+AMERICA OR THE REPUBLIC OF SINGAPORE AT THE TIME OF YOUR INTENDED PURCHASE/PURCHASE
+OF SCOOPCOIN IN THE TOKEN SALE. YOU ARE ALSO NOT ELIGIBLE AND YOU ARE NOT TO PURCHASE
+ANY SCOOPCOIN IN THE ScoopCoin SALE IF YOU ARE A CITIZEN, RESIDENT (TAX OR OTHERWISE),
+DOMICILED IN, OR GREEN CARD HOLDER OF THE UNITED STATES OF AMERICA OR A CITIZEN,
+DOMICILED IN, OR RESIDENT OF THE REPUBLIC OF SINGAPORE.
+No regulatory authority has examined or approved of any of the information set out in this Whitepaper. No
+such action has been or will be taken under the laws, regulatory requirements or rules of any jurisdiction. The
+
+publication, distribution or dissemination of this Whitepaper does not imply that the applicable laws,
+regulatory requirements or rules have been complied with.
+RISKS AND UNCERTAINTIES
+Prospective purchasers of ScoopCoin (as referred to in this Whitepaper) should carefully consider and
+evaluate all risks and uncertainties associated with the Scoop team and their respective businesses and
+operations, the ScoopCoin, the Scoop team token sale, the Scoop platform or protocol and the Scoop network
+(each as referred to in the Whitepaper), all information set out in this Whitepaper and the T&Cs prior to any
+purchase of ScoopCoin. If any of such risks and uncertainties develops into actual events, the business,
+financial condition, results of operations and prospects of the Scoop team could be materially and adversely
+affected. In such cases, you may lose all or part of the value of the ScoopCoin.
+
