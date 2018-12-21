@@ -1,0 +1,9 @@
+textract==1.6.1
+watson_developer_cloud==2.5.1
+nltk==3.3
+matplotlib==3.0.0
+tqdm==4.28.1
+gensim==3.4.0
+numpy==1.15.4
+beautifulsoup4==4.6.3
+scikit_learn==0.20.2
